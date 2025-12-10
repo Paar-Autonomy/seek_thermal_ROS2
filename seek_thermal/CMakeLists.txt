@@ -14,7 +14,7 @@ else()
 endif()
 
 # OpenCV 3+
-find_package(OpenCV 3 REQUIRED COMPONENTS core imgproc)
+find_package(OpenCV 4 REQUIRED core imgproc)
 
 add_library(seek_thermal SHARED
   src/SeekCam.cpp
